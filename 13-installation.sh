@@ -1,3 +1,5 @@
 #!/bin/bash
 
-dnf install mysql -y
+USERID=$( id -u)
+
+echo "user id is:$USERID"
